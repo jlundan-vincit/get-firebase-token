@@ -1,15 +1,16 @@
 {
-  "name": "local-token",
+  "name": "get-firbase-token",
   "version": "1.0.0",
-  "description": "",
+  "description": "Log in locally to Firebase and get a Firebase token",
   "main": "main.js",
   "scripts": {
     "start": "NODE_NO_WARNINGS=1 node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "https://github.com/jlundan-vincit/get-firebase-token.git",
   "type": "module",
-  "author": "",
-  "license": "UNLICENSED",
+  "author": "juha.lundan@vincit.fi",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2",
     "firebase-admin": "^12.0.0",
